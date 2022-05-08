@@ -66,7 +66,7 @@ $.log($.config);
   getPhysiologicalDay();
 
   let content = `
-  [🐣${$.config.username}🐣]：${$.oneSay || ""}
+  [🐣${$.config.username}🐣]：${$.oneSay || "（随机生成的如果奇怪请忽略"}
 
   📆农历：${$.lunar}
 
@@ -161,7 +161,6 @@ async function getEveryDaySay() {
       if (code !== 1) {
         throw new Error(body);
       }
-      console.log("每日情话（是网上生成的可能会有奇怪的）：")
       console.log(content);
       return content;
     });
