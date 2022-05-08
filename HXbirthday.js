@@ -20,7 +20,7 @@ $.config = {
   username: "胡湘", // 姓名
   birthday: "2000-5-25", // 生日日期
   physiologicalDefault: "2000-4-6", // 最近一次来周期时间
-  physiologicalCycle: "", // 下一次周期
+  physiologicalCycle: "2000-4-15", // 下一次周期
   nongli: true, // 农历生日
   eday: "2022-2-7",
   loveWords: true,
