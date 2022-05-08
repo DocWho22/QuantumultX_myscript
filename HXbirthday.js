@@ -7,9 +7,9 @@
 🔘透明版本: https://raw.githubusercontent.com/Orz-3/mini/master/birthday.png
 配置：
 [loon]
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/DocWho22/QuantumultX_myscript/main/HXbirthday.js
 [quanx]
-10 0 0 * * * https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js
+10 0 0 * * * https://raw.githubusercontent.com/DocWho22/QuantumultX_myscript/main/HXbirthday.js
 */
 
 const $ = API("birthday", true);
@@ -22,7 +22,7 @@ $.config = {
   physiologicalDefault: "2000-4-6", // 最近一次来周期时间
   physiologicalCycle: "", // 下一次周期
   nongli: true, // 农历生日
-  eday: "",
+  eday: "2022-2-7",
   loveWords: true,
   isLeapMonth: false, //如果是农历闰月第四个参数赋值true即可
 };
