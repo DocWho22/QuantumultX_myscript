@@ -66,7 +66,7 @@ $.log($.config);
   getPhysiologicalDay();
 
   let content = `
-  [🐣${$.config.username}🐣]：${$.oneSay || "（随机生成的如果奇怪请忽略"}
+  [🐣${$.config.username}🐣]：${$.oneSay + "（随机生成的如果奇怪请忽略" || ""}
 
   📆农历：${$.lunar}
 
