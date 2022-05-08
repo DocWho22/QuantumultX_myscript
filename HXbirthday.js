@@ -168,7 +168,7 @@ async function getEveryDaySay() {
 
 async function getCalendarJs() {
   const response = await $.http.get({
-    url: "https://gitee.com/domp/jnc_lunch/raw/master/public/calendar.js",
+    url: "https://raw.githubusercontent.com/DocWho22/QuantumultX_myscript/main/calendar.js",
   });
   return response.body;
 }
