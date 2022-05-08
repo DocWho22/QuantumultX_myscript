@@ -72,7 +72,7 @@ $.log($.config);
 
   📆日历：${$.solar}
 
-  🐽属相：${$.animal}
+  🏳️‍🌈属相：${$.animal}
 
   🌠星座：${$.astro}
 
@@ -86,7 +86,7 @@ $.log($.config);
   if ($.eDay) {
     content += `
     
-  💏相识：${$.eDay} 天  📆：${$.config.eday}`;
+  👩‍❤️‍👩相识👭：${$.eDay} 天  📆：${$.config.eday}`;
   }
   $.log(content);
   $.notify(`@${$.config.username}`, "嘿，在干嘛呀？", content, {
