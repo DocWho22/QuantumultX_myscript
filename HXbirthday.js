@@ -161,6 +161,7 @@ async function getEveryDaySay() {
       if (code !== 1) {
         throw new Error(body);
       }
+      console.log("每日情话（是网上生成的可能会有奇怪的）：")
       console.log(content);
       return content;
     });
