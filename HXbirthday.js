@@ -89,7 +89,7 @@ $.log($.config);
   👩‍❤️‍👩相识👭：${$.eDay} 天  📆：${$.config.eday}`;
   }
   $.log(content);
-  $.notify(`@${$.config.username}`, "嘿，在干嘛呀？", content, {
+  $.notify(`@${$.config.username}`, "嘿，睡觉时间到啦🛌", content, {
     "media-url": $.config.mediaImg,
   });
 })()
